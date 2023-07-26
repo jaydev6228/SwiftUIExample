@@ -2,7 +2,7 @@
 //  SwiftUIPracticeApp.swift
 //  SwiftUIPractice
 //
-//  Created by Vebuin_Jaydev on 2021/12/21.
+//  Created by Jaydev on 2021/12/21.
 //
 
 import SwiftUI

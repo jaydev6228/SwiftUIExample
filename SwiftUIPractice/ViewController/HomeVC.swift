@@ -2,7 +2,7 @@
 //  HomeVC.swift
 //  SwiftUIPractice
 //
-//  Created by Vebuin_Jaydev on 2021/12/23.
+//  Created by Jaydev on 2021/12/23.
 //
 
 import SwiftUI

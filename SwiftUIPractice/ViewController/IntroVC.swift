@@ -2,7 +2,7 @@
 //  IntroVC.swift
 //  SwiftUIPractice
 //
-//  Created by Vebuin_Jaydev on 2021/12/22.
+//  Created by Jaydev on 2021/12/22.
 //
 
 import SwiftUI
@@ -17,7 +17,7 @@ struct IntroVC: View {
                         .aspectRatio(contentMode: .fill)
                     
                     VStack(alignment: .trailing, spacing: 10){
-                    Text("No More \nQueue")
+                    Text("Welcome \nBack")
                         .foregroundColor(AppConstant.AppColor.kSplash)
                         .font(Font.custom(AppConstant.Fonts.kIBMPlexbold, size: 36))
                         .frame(maxWidth: .infinity, alignment: .leading)
@@ -43,7 +43,7 @@ struct IntroVC: View {
                                 )
                             Button {
                             } label: {
-                                NavigationLink(destination: PlantListVC().navigationBarBackButtonHidden(true)) {
+                                NavigationLink(destination: ItemListVC().navigationBarBackButtonHidden(true)) {
                                     Text("Get Started").foregroundColor(Color.white)
                                         .frame(width: 200, height: 50, alignment: .center)
                                         .font(Font.custom(AppConstant.Fonts.kMPlusBold, size: 16))
